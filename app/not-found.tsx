@@ -16,11 +16,11 @@ const NotFoundPage = () => {
         priority
       />
 
-      <div className="p-6 shadow-md text-center w-1/3 rounded-lg">
+      <div className="p-6 shadow-md text-center rounded-lg ">
         <h1 className="text-3xl font-bold mb-4">Not Found</h1>
         <p className="text-destructive">Could not find requested page</p>
         <Button
-          className="mt-4 ml-2"
+          className="mt-4"
           onClick={() => (window.location.href = "/")}
           variant={"outline"}
         >
